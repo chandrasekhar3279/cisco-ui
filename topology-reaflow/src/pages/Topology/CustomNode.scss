@@ -1,0 +1,24 @@
+// .foreignObject {
+//     overflow: visible;
+// }
+
+.node-parent {
+    color: white;
+    border: 2px solid #005073;
+    background-color: #005073;
+}
+
+.node-regions {
+    background-color: #4981a7;
+    color: white;
+    border-radius: 4;
+}
+
+.node-vpcs {
+    background-color: #d0f5ff;
+    border-radius: 4;
+}
+
+.node-subnodes {
+    background-color: #ffeccc;
+}

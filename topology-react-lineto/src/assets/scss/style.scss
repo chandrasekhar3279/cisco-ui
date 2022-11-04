@@ -1,0 +1,56 @@
+// Theme Font
+@import "themes/font/theme-font";
+
+@import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+@import "primereact/resources/primereact.min.css"; //core css
+@import "primeicons/primeicons.css"; //icons
+
+// theme scrollbar
+@import "themes/plugin/perfect-scrollbar";
+
+// main framework
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "settings/custom-variables";
+@import "settings/theme-variables";
+
+// ng module
+@import "react-module/react-module";
+
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// icon
+@import "themes/font/feather";
+@import "themes/font/fontawesome";
+
+// bootstrap css
+@import "themes/bootstrap-overlay/card";
+@import "themes/bootstrap-overlay/button";
+@import "themes/bootstrap-overlay/radiobox-checkbox";
+
+@import "themes/general";
+@import "themes/generic";
+
+// theme layouts
+@import "themes/layouts/menu-lite";
+@import "themes/layouts/menu-react";
+@import "layout-dark";
+@import "layout-rtl";
+
+// Dashboard Widgets
+@import "themes/dashboard/widget";
+
+// custom plugin
+@import "themes/plugin/notification";
+@import "themes/plugin/tags-input";
+@import "themes/plugin/select2";
+
+// pages
+// @import "themes/pages/authentication";
+@import "themes/pages/pages";
+@import "themes/pages/icon-lauouts";
+@import "themes/pages/user";
+
+// custom
+@import "themes/custom";

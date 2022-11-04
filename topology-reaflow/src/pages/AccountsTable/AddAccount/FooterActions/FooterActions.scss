@@ -1,0 +1,30 @@
+.footer-actions{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    button{
+        margin-right: 25px;
+        border-radius: 25px;      
+    }
+    .btn:disabled{
+        opacity: 0.4;
+    }
+}
+
+.footer-button{
+    margin: 10px;
+    padding: 5px 30px 5px 30px;
+}
+
+.footer-left-button{
+    background-color: white;
+    color: #005073;
+    border: 1px solid #005073;
+}
+
+.footer-right-button{
+    background-color: #005073;
+    color: white;
+}

@@ -1,0 +1,35 @@
+// Theme Font
+@import "bootstrap/scss/mixins";
+@import "themes/font/theme-font";
+
+@import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+@import "primereact/resources/primereact.min.css"; //core css
+@import "primeicons/primeicons.css"; //icons
+
+// main framework
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "settings/_custom-variables.scss";
+@import "settings/_theme-variables.scss";
+
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "themes/bootstrap-overlay/card";
+
+// icon
+@import "themes/font/feather";
+@import "themes/font/fontawesome";
+
+//plugin
+@import "themes/plugin//perfect-scrollbar";
+
+@import "themes/general";
+
+// theme layouts
+@import "themes/layouts/menu-lite";
+@import "themes/layouts/menu-react";
+
+// custom
+@import "themes/custom";
+
+@import "react-module/react-bootstrap/header"

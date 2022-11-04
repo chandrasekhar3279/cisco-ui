@@ -1,0 +1,44 @@
+/* lato-100 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 100;
+  src: local(""), url(./Lato/lato-v22-latin-100.woff2) format("woff2"),
+    url(./Lato/lato-v22-latin-100.woff) format("woff");
+}
+
+/* lato-300 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url(./Lato/lato-v22-latin-300.woff2) format("woff2"),
+    url(./Lato/lato-v22-latin-300.woff) format("woff");
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url(./Lato/lato-v22-latin-regular.woff2) format("woff2"),
+    url(./Lato/lato-v22-latin-regular.woff) format("woff");
+}
+
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url(./Lato/lato-v22-latin-700.woff2) format("woff2"),
+    url(./Lato/lato-v22-latin-700.woff) format("woff");
+}
+
+/* lato-900 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url(./Lato/lato-v22-latin-900.woff2) format("woff2"),
+    url(./Lato/lato-v22-latin-900.woff) format("woff");
+}

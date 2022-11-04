@@ -1,0 +1,24 @@
+.dialog-box{
+    .pi-element{
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        .pi{
+            position:relative;          
+        }
+        div{
+            padding-left: 20px;
+        }
+        .pi-check-circle::before{
+            color: green
+        }
+        .pi-content::after {
+            content: attr(data-count);
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            font-size: 20px;
+            transform: translate(-50%,-50%);
+        }
+    } 
+}

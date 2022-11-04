@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1000,
+    "name": "James Butt",
+    "country": {
+      "name": "Algeria",
+      "code": "dz"
+    },
+    "company": "Benton, John B Jr",
+    "type": "A",
+    "valueaws": 0,
+    "valueazure": 11000,
+    "valuegcp": 4000,
+    "date": "2015-09-13",
+    "status": "unqualified",
+    "verified": true,
+    "activity": 17,
+    "representative": {
+      "name": "Ioni Bowcher",
+      "image": "ionibowcher.png"
+    },
+    "balance": 1
+  },
+  {
+    "id": 1001,
+    "name": "Josephine Darakjy",
+    "country": {
+      "name": "Egypt",
+      "code": "eg"
+    },
+    "company": "Chanay, Jeffrey A Esq",
+    "type": "B",
+    "valueaws": 1300,
+    "valueazure": 10000,
+    "valuegcp": 4000,
+    "date": "2019-02-09",
+    "status": "proposal",
+    "verified": true,
+    "activity": 0,
+    "representative": {
+      "name": "Amy Elsner",
+      "image": "amyelsner.png"
+    },
+    "balance": 2
+  },
+  {
+    "id": 1002,
+    "name": "Art Venere",
+    "country": {
+      "name": "Panama",
+      "code": "pa"
+    },
+    "company": "Chemel, James L Cpa",
+    "type": "C",
+    "valueaws": 1600,
+    "valueazure": 9000,
+    "valuegcp": 4000,
+    "date": "2017-05-13",
+    "status": "qualified",
+    "verified": false,
+    "activity": 63,
+    "representative": {
+      "name": "Asiya Javayant",
+      "image": "asiyajavayant.png"
+    },
+    "balance": 3
+  },
+  {
+    "id": 1003,
+    "name": "Lenna Paprocki",
+    "country": {
+      "name": "Slovenia",
+      "code": "si"
+    },
+    "company": "Feltz Printing Service",
+    "type": "D",
+    "valueaws": 2900,
+    "valueazure": 8000,
+    "valuegcp": 4000,
+    "date": "2020-09-15",
+    "status": "new",
+    "verified": false,
+    "activity": 37,
+    "representative": {
+      "name": "Xuxue Feng",
+      "image": "xuxuefeng.png"
+    },
+    "balance": 4
+  },
+  {
+    "id": 1004,
+    "name": "Donette Foller",
+    "country": {
+      "name": "South Africa",
+      "code": "za"
+    },
+    "company": "Printing Dimensions",
+    "type": "E",
+    "valueaws": 3700,
+    "valueazure": 6000,
+    "valuegcp": 4000,
+    "date": "2016-05-20",
+    "status": "proposal",
+    "verified": true,
+    "activity": 33,
+    "representative": {
+      "name": "Asiya Javayant",
+      "image": "asiyajavayant.png"
+    },
+    "balance": 5
+  },
+  {
+    "id": 1005,
+    "name": "Simona Morasca",
+    "country": {
+      "name": "Egypt",
+      "code": "eg"
+    },
+    "company": "Chapman, Ross E Esq",
+    "type": "F",
+    "valueaws": 4900,
+    "valueazure": 5000,
+    "valuegcp": 4000,
+    "date": "2018-02-16",
+    "status": "qualified",
+    "verified": false,
+    "activity": 68,
+    "representative": {
+      "name": "Ivan Magalhaes",
+      "image": "ivanmagalhaes.png"
+    },
+    "balance": 6
+  },
+  {
+    "id": 1006,
+    "name": "Mitsue Tollner",
+    "country": {
+      "name": "Paraguay",
+      "code": "py"
+    },
+    "company": "Morlong Associates",
+    "type": "G",
+    "valueaws": 5800,
+    "valueazure": 9000,
+    "valuegcp": 4000,
+    "date": "2018-02-19",
+    "status": "renewal",
+    "verified": true,
+    "activity": 54,
+    "representative": {
+      "name": "Ivan Magalhaes",
+      "image": "ivanmagalhaes.png"
+    },
+    "balance": 7
+  },
+  {
+    "id": 1007,
+    "name": "Leota Dilliard",
+    "country": {
+      "name": "Serbia",
+      "code": "rs"
+    },
+    "company": "Commercial Press",
+    "type": "H",
+    "valueaws": 6400,
+    "valueazure": 4000,
+    "valuegcp": 4000,
+    "date": "2019-08-13",
+    "status": "renewal",
+    "verified": true,
+    "activity": 69,
+    "representative": {
+      "name": "Onyama Limba",
+      "image": "onyamalimba.png"
+    },
+    "balance": 8
+  },
+  {
+    "id": 1008,
+    "name": "Sage Wieser",
+    "country": {
+      "name": "Egypt",
+      "code": "eg"
+    },
+    "company": "Truhlar And Truhlar Attys",
+    "type": "I",
+    "valueaws": 2700,
+    "valueazure": 8000,
+    "valuegcp": 4000,
+    "date": "2018-11-21",
+    "status": "unqualified",
+    "verified": true,
+    "activity": 76,
+    "representative": {
+      "name": "Ivan Magalhaes",
+      "image": "ivanmagalhaes.png"
+    },
+    "balance": 9
+  },
+  {
+    "id": 1009,
+    "name": "Kris Marrier",
+    "country": {
+      "name": "Mexico",
+      "code": "mx"
+    },
+    "company": "King, Christopher A Esq",
+    "type": "J",
+    "valueaws": 8900,
+    "valueazure": 5000,
+    "valuegcp": 4000,
+    "date": "2015-07-07",
+    "status": "proposal",
+    "verified": false,
+    "activity": 3,
+    "representative": {
+      "name": "Onyama Limba",
+      "image": "onyamalimba.png"
+    },
+    "balance": 10
+  },
+  {
+    "id": 1010,
+    "name": "Minna Amigon",
+    "country": {
+      "name": "Romania",
+      "code": "ro"
+    },
+    "company": "Dorl, James J Esq",
+    "type": "K",
+    "valueaws": 4600,
+    "valueazure": 1000,
+    "valuegcp": 4000,
+    "date": "2018-11-07",
+    "status": "qualified",
+    "verified": false,
+    "activity": 38,
+    "representative": {
+      "name": "Anna Fali",
+      "image": "annafali.png"
+    },
+    "balance": 11
+  }
+]

@@ -1,0 +1,685 @@
+.tab-user-card {
+  .nav-pills {
+    background: #ecf0f5;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.network-title {
+  font-weight: 300;
+}
+
+.network-details {
+  height: auto;
+}
+
+.network-columns {
+  .col {
+    padding: 0;
+  }
+}
+
+.forecast-chart{
+  canvas{
+    height: 90px !important;
+  }
+}
+
+
+.network-details {
+  div.td-col {
+    padding: 0.7rem 0;
+    border-width: 0.5px 0.5px 0 0.5px;
+    border-style:  solid;
+    border-color:  rgba(0,0,0,0.15);
+    min-height: 2.375rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .td-col:last-child{
+    border-bottom: 0.5px solid rgba(0,0,0,0.15);
+  }
+}
+
+.network-table-col {
+  text-align: center;
+  div.td-col:nth-child(odd) {
+    background-color: #f2f2f2f2;
+  }
+}
+
+p.ns-content>div {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 3rem;
+  padding-left: 2rem;
+  color: #616267;
+  border: 1px solid black;
+}
+
+h4.ns-title {
+  border-bottom: 1px solid rgba(129, 129, 129, 0.3);
+  margin: 0 3rem 2rem 3rem;
+  text-align: center;
+}
+
+span.exit-button {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+.network-background {
+  background-color: #196180;
+  color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.active {
+  background: $primary-color;
+  color: white;
+}
+
+.q-view {
+  width: 100vw;
+  left: 0;
+
+  &.active {
+    .content {
+      left: auto;
+      position: fixed;
+
+      .media-object {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.help-desk {
+  .media-object {
+    margin-bottom: 10px;
+  }
+}
+
+.navbar-wrapper {
+  .navbar-content {
+    &.next-scroll {
+      height: 100vh;
+    }
+  }
+}
+
+.visual-placeholder {
+  display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+  .hover-blk {
+    display: none;
+  }
+}
+
+.qview-modal {
+  &.fade {
+    .q-view-modal.modal-dialog {
+      transform: translateX(550px);
+    }
+  }
+
+  &.show {
+    padding-right: 0 !important;
+
+    .q-view-modal.modal-dialog {
+      transform: none;
+    }
+  }
+}
+
+.q-view-modal {
+  margin: 0 0 0 auto !important;
+
+  .modal-content {
+    min-height: 100vh;
+    border-radius: 0;
+    border: none;
+
+    .modal-body {
+      flex: 1 1 100%;
+      height: 100%;
+
+      .trumbowyg-box,
+      .trumbowyg-editor {
+        min-height: 110px;
+      }
+    }
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 550px;
+      margin: 0 0 0 auto;
+    }
+  }
+}
+
+.pcoded-header .dropleft .dropdown-toggle::before {
+  display: none;
+}
+
+input.form-control[type="radio"] {
+  height: 25px;
+}
+
+.alert-dismissible .close {
+  top: 10px;
+  right: 10px;
+}
+
+.no-arrow .btn,
+.no-arrow {
+  &:before {
+    display: none;
+  }
+}
+
+.top-right-nav {
+  li {
+    margin: 10px 10px 0;
+
+    a.ico {
+      display: block;
+      width: 26px;
+      height: 26px;
+      background-color: #616267;
+      border-radius: 50%;
+      color: #fff !important;
+      text-align: center;
+      line-height: 26px;
+    }
+
+    &:last-child {
+      margin-top: 0;
+
+      button {
+        width: 36px !important;
+        height: 36px;
+        border-radius: 50%;
+        line-height: 36px !important;
+        text-align: center !important;
+        border: solid #616267 1px;
+
+        >i {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.p-component {
+  font-family: $font-family-sans-serif;
+}
+
+.p-dialog {
+  .p-dialog-header {
+    background: $primary-color;
+    color: $white;
+    padding: 10px 1.5rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+    .p-dialog-header-icon {
+      color: $white;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:enabled {
+        &:hover {
+          background: transparent;
+        }
+      }
+    }
+
+    .p-dialog-title {
+      font-weight: 300;
+      font-size: 20px;
+      padding-left: 31px;
+      position: relative;
+
+      &:before {
+        content: "A";
+        color: $white;
+        display: block;
+        background-color: #006832;
+        font-size: 14px;
+        border-radius: 50%;
+        border: solid 1px $white;
+        height: 26px;
+        width: 26px;
+        text-align: center;
+        position: absolute;
+        top: 2px;
+        left: 0;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .p-dialog-content {
+    padding: 5px 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.btn-group {
+  >.btn:not(:last-child) {
+    &:not(.dropdown-toggle) {
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      margin-right: 30px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+  }
+
+  >.btn-group {
+    &:not(:last-child) {
+      >.btn {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
+  }
+
+  >.btn:not(:first-child) {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .btn-group {
+    >.btn-group {
+      &:not(:first-child) {
+        >.btn {
+          border-top-right-radius: 50px;
+          border-bottom-right-radius: 50px;
+        }
+      }
+    }
+  }
+}
+
+.datatable-account {
+  .p-menu {
+    width: 8rem;
+  }
+}
+
+.bottom-btn {
+  position: fixed;
+  bottom: 12px;
+  right: 10px;
+}
+
+.btn-group>.btn:not(:first-child),
+.btn-group>.btn-group:not(:first-child)>.btn {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.provider-cards {
+  padding: 50px 100px 150px 100px;
+  background-color: #f2f2f2;
+  //text-align: center;
+}
+
+.sw-theme-default .Stepper .step-content {
+  min-height: 0 !important;
+}
+
+.steps-text {
+  margin: 0 120px 20px 120px;
+}
+
+.steps-background {
+  background-color: #f2f2f2;
+  padding: 30px 100px 100px 100px;
+}
+
+.access-details-background {
+  background-color: #f2f2f2;
+  padding: 30px 100px 20px 100px;
+}
+
+.account-details-gray-background {
+  background-color: #f2f2f2;
+  padding-bottom: 200px;
+}
+
+.account-details-white-background {
+  background-color: white;
+}
+
+.form-heading-style {
+  font-weight: 300;
+}
+
+.pop-up-styles {
+  padding: 20px;
+}
+
+.main-centerdiv {
+  padding: 20px 150px;
+}
+
+.general-style {
+  padding: 1.2rem 7.5rem;
+}
+
+.access-keys-background {
+  background-color: white;
+  padding: 20px;
+}
+
+.access-pointer {
+  cursor: pointer;
+  color: #1300bb;
+}
+
+//Availability Zones
+
+.detail-view {
+  div>p.namespace {
+    background-color: #006832;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .provider-cards {
+    padding: 1.2rem 7.5rem 1.875rem 6.25rem;
+    text-align: center;
+  }
+
+  .provider-card-title {
+    font-size: 0.9rem !important;
+    text-align: left;
+  }
+
+  .select-providers,
+  .select-account-details,
+  .select-access {
+
+    .aws-box,
+    .azure-box,
+    .gcloud-box {
+      width: calc(25% - 20px);
+    }
+  }
+
+  .expanded-div {
+    max-height: 16.375rem;
+  }
+
+  .p-dialog {
+    .sw-theme-default {
+      .Stepper {
+        .sw-toolbar {
+          padding: 0;
+        }
+      }
+    }
+
+    .account-details-gray-background {
+      padding-bottom: 0px;
+    }
+  }
+
+  .form-size {
+    font-size: 0.9rem;
+  }
+
+  .general-style {
+    padding: 1.25rem 7.5rem 0.313rem 7.5rem;
+  }
+
+  .decreased-div {
+    max-height: 3.375rem;
+  }
+
+  .sw-theme-default {
+    .Stepper {
+      .step-content {
+        min-height: 0;
+      }
+
+      .step-anchor {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+.p-confirm-dialog {
+  .p-dialog-header {
+    display: none;
+  }
+
+  .p-dialog-content {
+    padding: 1.875rem;
+    border-radius: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  .select-providers,
+  .select-account-detail,
+  .select-access {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .steps-text {
+      font-size: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .mb-5 {
+      margin-bottom: 0.9rem !important;
+    }
+
+    .provider-cards {
+      padding: 1.875rem 7.5rem 1.875rem 7.5rem;
+    }
+
+    .aws-box,
+    .azure-box,
+    .gcloud-box {
+      text-align: center;
+
+      .provider-image {
+        width: 5.5rem;
+      }
+
+      .provider-card-title {
+        font-size: 1rem;
+        text-align: left;
+      }
+    }
+  }
+}
+
+//responsive
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+  .select-providers,
+  .select-account-details,
+  .select-access {
+
+    h1 {
+      font-size: 1.875rem;
+    }
+
+    .steps-text {
+      margin: 0.625rem 7.5rem;
+      font-size: 0.75rem;
+    }
+
+    .decreased-div {
+      margin-top: 0.62rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .provider-cards {
+    padding: 3.75rem 6.25rem;
+  }
+
+  .provider-image {
+    width: 6.25rem;
+  }
+
+  .general-style {
+    padding: 0.625rem 7.5rem;
+  }
+
+  .finish-screen {
+    .card {
+      margin: 5px;
+    }
+
+    .center-image {
+      width: 50px;
+      height: 50px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    .middle-div-image {
+      height: 175px;
+      width: 300px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    h5 {
+      font-size: 0.9rem;
+    }
+
+    .button-style {
+      padding: 5px 20px 5px 20px;
+    }
+
+    .card-main-div {
+      margin: 10px;
+    }
+
+    .region-middle-div {
+      margin: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+
+  .select-providers,
+  .select-account-details,
+  .select-access {
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .steps-text {
+      margin: 10px 7.5rem 20px 7.5rem;
+      font-size: 15px;
+
+      .mb-5 {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .decreased-div {
+      margin-top: 15px;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .provider-cards {
+    padding: 3.75rem 6.25rem;
+  }
+
+  .general-style {
+    padding: 10px 7.5rem;
+  }
+
+  .region-middle-div {
+    margin: 3.75rem 1.875rem;
+  }
+
+  .last-screen-bottomdiv {
+    padding-bottom: 5rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+
+  .select-providers,
+  .select-account-details,
+  .select-access {
+
+    h1 {
+      font-size: 3.75rem;
+    }
+
+    .steps-text {
+      margin: 25px 7.5rem 50px 7.5rem;
+      font-size: 1.125rem;
+    }
+
+    .decreased-div {
+      margin-top: 1.563rem;
+      margin-bottom: 7rem;
+    }
+  }
+
+  .provider-cards {
+    padding: 7.5rem 6.25rem 5rem 6.25rem;
+  }
+
+  .general-style {
+    padding: 2.5rem 7.5rem 5rem 7.5rem;
+  }
+
+  .region-middle-div {
+    margin: 3.75rem 1.875rem;
+  }
+
+  .card-main-div {
+    margin: 0.3rem;
+  }
+
+  .finish-screen {
+    .card {
+      margin: 0.3rem;
+    }
+  }
+}

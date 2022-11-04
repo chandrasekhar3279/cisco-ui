@@ -1,0 +1,101 @@
+h6.show-popup-screen{
+    padding: 15px;
+}
+
+div.bg-highlight{
+    background-color: #f0f8eb;
+}
+
+p.is-title{
+    margin-top: 1rem ;
+    margin-bottom: 0.3rem;
+}
+
+p.ns-title, .is-title{
+    margin-bottom: 0.3rem;
+}
+
+.ns-content{
+    background-color: #4ec7ce;
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    max-width: fit-content;
+}
+
+.settings-content{
+    margin-left: 15px;
+}
+
+.status-content{
+    font-size: 0.9rem;
+    border: 1px solid rgb(178, 178, 178);
+    margin-bottom: 0.5rem;
+}
+
+.resource-title{
+    font-size: 0.6rem;
+    height: 1.2rem;
+}
+
+.resource-value{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #246578;
+}
+
+.resource-end-value{
+    justify-content: flex-start;
+}
+.general-card-topmargin
+{
+    margin-top:8px;
+}
+.showdisplay-bg
+{
+    background-color: #fafafa;
+}
+.alertcard-style
+{
+    padding-bottom:16px;
+}
+.account-title {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .account-action{
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(66, 190, 227, 0.902);
+    color: white;
+  }
+  
+ 
+  .action-popup{
+    
+    .p-inputtext{
+      padding: 0.25rem 0.7rem;
+      color:white;
+    }
+    .pi{
+      color: white;
+    }
+  
+  
+  .p-dropdown .p-dropdown-label.p-placeholder {
+    color: white;
+  }
+  }
+  .account{
+    display: flex;
+  }
+  .account-icons{
+    display: flex;
+  
+    div {
+      width: 40px;
+     
+    }
+  }

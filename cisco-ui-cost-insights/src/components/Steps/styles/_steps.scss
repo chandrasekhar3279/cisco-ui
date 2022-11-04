@@ -1,0 +1,71 @@
+.StepperSteps {
+  width: 100%;
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: separate;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 20px;
+
+  .StepperStep {
+    display: table-cell;
+    position: relative;
+    float: none;
+    padding: 0;
+    width: 1%;
+
+    .StepperStep-Icon {
+      background-color: $white;
+      border-radius: 50%;
+      border: 1px solid $stepper-color-neutral;
+      color: $stepper-color-neutral;
+      font-size: $stepper-step-font-size;
+      height: $stepper-step-width-height;
+      line-height: $stepper-step-width-height;
+      margin: 0 auto;
+      position: relative;
+      width: $stepper-step-width-height;
+      z-index: 1;
+    }
+
+    .StepperStep-Link {
+      &.disabled {
+        cursor: not-allowed;
+      }
+    }
+
+    &.StepperStep-Active {
+      .StepperStep-Icon {
+        border-color: $stepper-color-active;
+        color: $stepper-color-active;
+      }
+    }
+
+    &.StepperStep-Complete {
+      .StepperStep-Icon {
+        border-color: $stepper-color-complete;
+        color: $stepper-color-complete;
+      }
+    }
+
+    &:after {
+      left: 50%;
+      background-color: $stepper-color-neutral;
+      content: "";
+      display: block;
+      height: 1px;
+      position: absolute;
+      width: 100%;
+      top: calc($stepper-step-width-height / 2);
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

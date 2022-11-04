@@ -1,0 +1,36 @@
+.detail-header {
+    h1 {
+        color: #58585B;
+        font-weight: 300;
+        font-size: 32px;
+        margin-bottom: 15px;
+
+        .heading-button {
+            color: rgb(0, 116, 147);
+            font-size: 24px;
+            padding-top: 5px;
+            &:hover {
+                color: rgb(0, 116, 147) !important;
+                background: transparent !important;
+                opacity: 0.8
+            }
+        }
+    }
+
+    .sync-icon {
+        cursor: pointer;
+        font-size: 1rem;
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 25px;
+        background: #626469;
+        color: white;
+    }
+
+}
+
+#detail-header-menu {
+
+    width: auto !important;
+
+}
